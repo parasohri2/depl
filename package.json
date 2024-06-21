@@ -1,0 +1,20 @@
+{
+  "name": "oky",
+  "version": "1.0.0",
+  "description": "basic to deploy",
+  "main": "two.js",
+  "scripts": {
+    "test": "node chai",
+    "start": "node deploy.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "paras ohri",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
