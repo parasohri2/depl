@@ -5,7 +5,7 @@ console.log("paras");
 const express = require('express');
 const { url } = require('inspector');
 const app = express()
-const port = 3000
+const PORT = 3000
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -17,6 +17,6 @@ app.get('/todo',(req,res)=>{
     res.send ('window.open(url("https://parasohri2.github.io/todo/"))')
 }
 )
-app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${process.env.PORT} `)
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT} `)
 })
