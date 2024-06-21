@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node chai",
     "start": "node deploy.js"
+    "vercel-build":" hello"
   },
   "keywords": [
     "node",
