@@ -1,4 +1,4 @@
-require('dotenv').config()
+//require('dotenv').config()
 console.log("paras");
 //npm init for json pack
 
