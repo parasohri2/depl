@@ -1,5 +1,6 @@
 require('dotenv').config()
 console.log("paras");
+const { log } = require('console');
 //npm init for json pack
 
 const express = require('express');
@@ -9,6 +10,7 @@ const PORT = 3000
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
+  
 })
 app.get('/twitter',(req,res)=>{
     res.send('hello from twit')
