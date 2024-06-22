@@ -5,7 +5,7 @@
   "main": "two.js",
   "scripts": {
     "test": "node chai",
-    "start": "node index.js"
+    "start": "node deploy.js"
   },
   "keywords": [
     "node",
